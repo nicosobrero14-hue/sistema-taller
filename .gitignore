@@ -1,0 +1,31 @@
+# Compilado de Maven
+target/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# Credenciales: nunca al repositorio
+.env
+
+# Fotos que suben los usuarios a las ordenes
+fotos-ordenes/
+
+# El zip de las capturas: duplica docs/capturas
+docs/capturas-sistema-taller.zip
+
+# Editores
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log

@@ -1,0 +1,15 @@
+# Normaliza los finales de linea al guardar en el repositorio
+* text=auto
+
+# El wrapper de maven es un script de shell: si se guarda con CRLF
+# no arranca en Linux ni en macOS
+mvnw text eol=lf
+*.sh text eol=lf
+
+# Los .cmd son de Windows
+*.cmd text eol=crlf
+
+# Binarios: que no los toque
+*.png binary
+*.jpg binary
+*.zip binary
