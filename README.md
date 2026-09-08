@@ -49,7 +49,7 @@ Entre servicios se hablan por HTTP, y el navegador habla solo con el gateway.
 | pagos-service | 8085 | `pagos-service` | Cobros de órdenes |
 | ventas-service | 8086 | `ventas-service` | Ventas de mostrador |
 
-El repaso del patrón de microservicios, con lo que cumple y lo que falta, está
+El repaso del patrón de microservicios, con lo que cumple está
 en [docs/microservicios.md](docs/microservicios.md).
 
 ## Stack
