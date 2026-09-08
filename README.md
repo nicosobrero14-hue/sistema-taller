@@ -159,9 +159,7 @@ cd ventas-service && mvnw test
 
 ## Estado del proyecto
 
-Funciona de punta a punta. Lo que falta para producción está detallado en
-[docs/microservicios.md](docs/microservicios.md): circuit breaker,
-trazabilidad entre servicios, configuración centralizada y paginación.
+Funciona de punta a punta.
 
 La facturación electrónica de ARCA no está implementada. Los comprobantes que
 emite el sistema son internos y no tienen valor fiscal.
